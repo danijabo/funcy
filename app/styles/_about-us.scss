@@ -1,37 +1,26 @@
 #about-us {
-    video {
-        width: 80%;
+    background-image: url("../assets/img/banner.png");
+    background-size: cover;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-position: 50% 100%;
+    .texto {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 75px;
+        h2 {
+            font-size: 55px;
+            font-weight: 400;
+            color: #383d48;
+            small {
+                font-size: 21px;
+                line-height: 26px;
+                padding-bottom: 5px;
+            }
+        }
     }
-    @include tablet {
-        width: 100%;
-        padding: 0;
-        .row {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .col-6 {
-            width: 80%;
-            text-align: center;
-        }
+    .image {
+        text-align: center;
     }
 }
-
-// #about-us video {
-//     width: 80%;
-// }
-// @media all and (max-width: 960px) {
-//     #about-us {
-//         width: 100%;
-//         padding: 0;
-//     }
-//     #about-us .row {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//     }
-//     #about-us .col-6 {
-//         width: 80%;
-//         text-align: center;
-//     }
-// }

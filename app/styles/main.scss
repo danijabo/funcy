@@ -1,26 +1,18 @@
 @import 'normalize';
+@import 'variables';
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
-@import 'variables';
 @import 'responsive';
-@import 'about-us';
-@import 'cookies';
-@import 'fonts';
-@import 'forms';
-@import 'geo';
-@import 'grid';
-@import 'home';
-@import 'movies';
 @import 'nav';
-@import 'team';
-@import 'typo';
+@import 'panel';
+@import 'about-us';
+@import 'nav-landing';
+@import 'discover';
+@import 'map';
 body {
-    font-size: 16px;
-    font-family: Lato, Helvetica, sans-serif;
-    margin: 0;
-}
-
-section {
-    padding-top: 72px;
+    &.index {
+        background: #ebeced;
+        padding-top: 70px;
+    }
 }
