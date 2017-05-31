@@ -21,7 +21,7 @@
                 <li role="presentation" class="able discover"><a href="#discover">Discover</a></li>
                 <li role="presentation" class="able map"><a href="#map">Map</a></li>
                 <li role="presentation" class="able aap"><a href="#app">App</a></li>
-                <li role="presentation" class="able join"><a href="#unete">Join Funcy</a></li>
+                <!-- <li role="presentation" class="able join"><a href="#unete">Join Funcy</a></li> -->
             </ul>
         </div>
         <div class="texto col-md-12">
@@ -54,34 +54,86 @@
         </ul>
     </article>
     <article id="map" class="geo"></article>
-    <article id="app">
-        <i>
-          <img src="assets/img/international_mobile.png" alt="international_mobile">
-        </i>
-        <h3>Web, mobil, y más</h3>
-        <p>Fancy is available on your computer, smartphone, tablet, TV and Apple Watch.</p>
-        <p>
-            <a href="">Download the app Funcy</a>
-        </p>
-        <i>
-          <img src="assets/img/devices.png" alt="devices">
-        </i>
+    <article id="app" class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <img id="international-mobile" src="assets/img/international_mobile.png" alt="international-mobile">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3>Web, mobil, y más</h3>
+                <p>Fancy is available on your computer, smartphone, tablet, TV and Apple Watch.</p>
+                <p>
+                    <a href="">Download the app Funcy</a>
+                </p>
+                <div>
+                    <img src="assets/img/devices.png" alt="devices">
+                </div>
+            </div>
+        </div>
     </article>
-    <article></article>
-    <footer></footer>
+    <!--     <article></article> -->
+    <footer>
+        <div class="top">
+            <p>
+                <a href="http://127.0.0.1:9000">
+                    <span>
+                        <img src="assets/icons/favicon.ico" alt="icon">
+                    </span> Funcy
+                </a>Descubre cosas geniales, colecciona las cosas que te gustan, cómpralo todo en un mismo sitio.</p>
+        </div>
+        <div class="middle">
+            <dl>
+                <dt>Fancy</dt>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </dl>
+            <dl>
+                <dt>Negocio</dt>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </dl>
+            <dl>
+                <dt>Descarga</dt>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </dl>
+            <dl>
+                <dt>Ayuda</dt>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </dl>
+
+        </div>
+        <div class="bottom">
+
+        </div>
+    </footer>
     </div>
     <!-- build:js(.) /scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx4RdGvDo-x4gtFCM1qPlNhET4SalvVbw&callback=initMap" async defer>
-    </script>
-    <script src="scripts/map.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js({.,.tmp,app}) scripts/scripts.js -->
-    <!-- include: "type ": "js ", "files ": ["scripts/**/*.js "], "baseUrl ": "/ " -->
+    <!-- include: "type": "js", "files": ["scripts/**/*.js"], "baseUrl": "/" -->
     <!-- endbuild -->
 </body>
 
