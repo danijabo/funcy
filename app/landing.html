@@ -21,45 +21,47 @@
                 <li role="presentation" class="able discover"><a href="#discover">Discover</a></li>
                 <li role="presentation" class="able map"><a href="#map">Map</a></li>
                 <li role="presentation" class="able aap"><a href="#app">App</a></li>
-                <!-- <li role="presentation" class="able join"><a href="#unete">Join Funcy</a></li> -->
+                <li role="presentation" class="able form"><a href="#form">Formulario</a></li>
             </ul>
         </div>
         <div class="texto col-md-12">
             <h2>
-                <small class="col-md-12">Descubre y compra artículos increíbles</small>
+                <small class="col-md-12 col-sm-12 col-xs-12">Descubre y compra artículos increíbles</small>
                 <span>La Mezcla Perfecta</span>
             </h2>
         </div>
         <div class="image col-md-12">
-            <img src="assets/img/page.png" alt="page">
+            <img src="assets/img/page.png" class="img-responsive" alt="page">
         </div>
     </header>
-    <article id="discover" class="container-fluid">
-        <h3 class="col-md-12">
-            Fancy es el lugar para descubrir y comprar artículos geniales, escogidos por nuestra comunidad.
-        </h3>
-        <ul class="col-md-12">
-            <li class="container col-md-3">
-                <img class="col-md-offset-3" src="assets/img/funcy-it.png" alt="funcy-it">
-                <b class="col-md-12">Comprar en Fancy</b> One app. Thousands of stores. Millions of products.
-            </li>
-            <li class="container col-md-3">
+    <article id="discover" class="container">
+        <div class="row">
+            <h3>
+                    Fancy es el lugar para descubrir y comprar artículos geniales, escogidos por nuestra comunidad.
+                </h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <img src="assets/img/funcy-it.png" alt="funcy-it">
+                <b>Comprar en Fancy</b> One app. Thousands of stores. Mildivons of products.
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
                 <img src="assets/img/movil.png" alt="movil">
-                <b class="col-md-12">Regala con Fancy</b> Find the perfect gifts for friends and family on Fancy.
-            </li>
-            <li class="container col-md-3">
+                <b>Regala con Fancy</b> Find the perfect gifts for friends and family on Fancy.
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
                 <img src="assets/img/box.png" alt="box">
-                <b class="col-md-12">Colecciona y Comparte</b> Fancy your favorite items, and earn credit for sharing with your friends.
-            </li>
-        </ul>
+                <b>Colecciona y Comparte</b> Fancy your favorite items, and earn credit for sharing with your friends.
+            </div>
+        </div>
     </article>
     <article id="map" class="geo"></article>
     <article id="app" class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6">
-                <img id="international-mobile" src="assets/img/international_mobile.png" alt="international-mobile">
+                <img id="international-mobile" class="img-responsive" src="assets/img/international_mobile.png" alt="international-mobile">
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="text col-xs-12 col-sm-6 col-md-6">
                 <h3>Web, mobil, y más</h3>
                 <p>Fancy is available on your computer, smartphone, tablet, TV and Apple Watch.</p>
                 <p>
@@ -71,57 +73,104 @@
             </div>
         </div>
     </article>
-    <!--     <article></article> -->
-    <footer>
-        <div class="top">
-            <p>
-                <a href="http://127.0.0.1:9000">
-                    <span>
-                        <img src="assets/icons/favicon.ico" alt="icon">
-                    </span> Funcy
-                </a>Descubre cosas geniales, colecciona las cosas que te gustan, cómpralo todo en un mismo sitio.</p>
+    <article id="contact" class="container">
+        <header class="row">
+            <h2>Contact</h2>
+        </header>
+        <div class="row">
+            <form action="" class="col-offset-2 col-8" novalidate>
+                <div class="form-group">
+                    <label for="name">Full name</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Tell us your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Tell us your email" required pattern="[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+">
+                </div>
+                <div class="form-group">
+                    <label class="radio-inline" for="male">
+                        <input type="radio" name="gender" id="male" value="male" required> Male
+                    </label>
+                    <label class="radio-inline" for="female">
+                        <input type="radio" name="gender" id="female" value="female" required>Female
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">birthdate</label>
+                    <input class="form-control" type="date" name="birthdate" id="birthdate" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="What do you need?" required></textarea>
+                </div>
+                <button class="btn btn-success" type="submit">Send!</button>
+            </form>
         </div>
-        <div class="middle">
-            <dl>
-                <dt>Fancy</dt>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </dl>
-            <dl>
-                <dt>Negocio</dt>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </dl>
-            <dl>
-                <dt>Descarga</dt>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </dl>
-            <dl>
-                <dt>Ayuda</dt>
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-            </dl>
-
+    </article>
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="left col-lg-4 col-md-12">
+                <p class="title">
+                    <a class="col-md-12 col-sm-12 col-xs-12" href="http://127.0.0.1:9000">
+                        <span>
+                                <img src="assets/icons/favicon-gris.ico" alt="icon">
+                            </span> Funcy
+                    </a>Descubre cosas geniales, colecciona las cosas que te gustan, cómpralo todo en un mismo sitio.</p>
+            </div>
+            <div class="right container col-lg-8 col-md-12">
+                <dl class="col-md-3 col-sm-3 col-xs-6">
+                    <dt>Fancy</dt>
+                    <ul>
+                        <li>Qué es Fancy</li>
+                        <li>Fancy Donde sea</li>
+                        <li>Apple watch</li>
+                        <li>Compra con Apple play</li>
+                    </ul>
+                </dl>
+                <dl class="col-md-3 col-sm-3 col-xs-6">
+                    <dt>Negocio</dt>
+                    <ul>
+                        <li>Vender en Funcy</li>
+                        <li>Publicistas y Blogueros</li>
+                        <li>Escapate de Funcy</li>
+                        <li>Recursos para Vendedores</li>
+                    </ul>
+                </dl>
+                <dl class="col-md-3 col-sm-3 col-xs-6">
+                    <dt>Descarga</dt>
+                    <ul>
+                        <li>Apps para el Móvil</li>
+                        <li>Botones & Widgets</li>
+                        <li>Guidelines de la Marca</li>
+                    </ul>
+                </dl>
+                <dl class="col-md-3 col-sm-3 col-xs-6">
+                    <dt>Ayuda</dt>
+                    <ul>
+                        <li>Centro de Ayuda</li>
+                        <li>Términos de servicio</li>
+                        <li>Política de Privacidad</li>
+                        <li>Contacta con nosotros</li>
+                        <li>Partners</li>
+                        <li>Jobs</li>
+                    </ul>
+                </dl>
+            </div>
         </div>
-        <div class="bottom">
-
+        <div class="row">
+            <div class="bottom container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="socials col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <a href="https://www.facebook.com/Fancy/">Facebook</a>
+                        <a href="https://twitter.com/fancy">Twitter</a>
+                        <a href="https://plus.google.com/+thefancy">Google+</a>
+                        <a href="https://www.instagram.com/fancy/">Instagram</a>
+                    </div>
+                    <div class="copy-right col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <p>© 2017 Thing Daemon Inc. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     </div>
