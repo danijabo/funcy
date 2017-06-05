@@ -1,0 +1,20 @@
+#trending {
+    li {
+        list-style: none;
+        margin-bottom: 5px;
+        background-color: rgba(128, 128, 128, 0.48);
+        border-radius: 25px;
+    }
+}
+
+@media all and (max-width: $screen-sm-min) {
+    #trending {
+        text-align: center;
+        padding-top: 20px;
+        .lista {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+}

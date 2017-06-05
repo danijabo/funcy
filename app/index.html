@@ -14,6 +14,11 @@
 </head>
 
 <body class="index">
+    <div class="cookies">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, accusamus?
+            <button class="btn btn-primary">OK</button>
+        </p>
+    </div>
     <nav class="navbar navbar-default navbar-fixed-top row" id="navbar">
         <div class="container">
             <form class="navbar-form navbar-left">
@@ -57,83 +62,109 @@
     </header>
     <main class="container">
         <div>
-            <div id="trending" class="col-md-2">
+            <div id="trending" class="col-md-2 container">
                 <header class="row">
                     <h4>Trending</h4>
                 </header>
-                <div class="row">
-                    <li>Poquet Samurai Sword</li>
-                    <li>Richard Clarkson</li>
-                    <li>Vanity Number</li>
-                    <li>roosmarijn de kok</li>
-                    <li>FLI Charge Station</li>
-                    <li>Funcy Gift Card</li>
-                    <li>Yeezy</li>
-                    <li>Michael B Jordan</li>
-                    <li>Robots</li>
-                    <li>Hermes</li>
+                <div class="row lista">
+                    <li class="col-md-12 col-sm-2">Poquet Samurai Sword</li>
+                    <li class="col-md-12 col-sm-2">Richard Clarkson</li>
+                    <li class="col-md-12 col-sm-2">Vanity Number</li>
+                    <li class="col-md-12 col-sm-2">roosmarijn de kok</li>
+                    <li class="col-md-12 col-sm-2">FLI Charge Station</li>
+                    <li class="col-md-12 col-sm-2">Funcy Gift Card</li>
+                    <li class="col-md-12 col-sm-2">Yeezy</li>
+                    <li class="col-md-12 col-sm-2">Michael B Jordan</li>
+                    <li class="col-md-12 col-sm-2">Robots</li>
+                    <li class="col-md-12 col-sm-2">Hermes</li>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="panel panel-default panel-product col-md-12">
-                    <div class="panel-body">
-                        <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                    </div>
-                    <div class="panel-footer">
-                        <div class="title col-md-12">
-                            <p>Lorem ipsum dolor sit.</p>
-                            <button class="btn btn-primary">1231</button>
+                <div class="container-fluid">
+                    <div class="panel panel-default panel-product col-xs-12" data-toggle="modal" data-target="#miModal">
+                        <div class="panel-body">
+                            <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
                         </div>
-                        <div class="subtitle">
-                            <button class="btn btn-default">12312</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default panel-product col-md-6">
-                    <div class="panel-body">
-                        <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                    </div>
-                    <div class="panel-footer">
-                        <div class="title col-md-12">
-                            <p>Lorem ipsum dolor sit.</p>
-                            <button class="btn btn-primary">1231</button>
-                        </div>
-                        <div class="subtitle">
-                            <button class="btn btn-default">12312</button>
+                        <div class="panel-footer">
+                            <div class="title col-xs-12">
+                                <p>Lorem ipsum dolor sit.</p>
+                                <button class="btn btn-primary">1231</button>
+                            </div>
+                            <div class="subtitle">
+                                <button class="btn btn-default">12312</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-default panel-product col-md-6">
-                    <div class="panel-body">
-                        <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                    </div>
-                    <div class="panel-footer">
-                        <div class="title col-md-12">
-                            <p>Lorem ipsum dolor sit.</p>
-                            <button class="btn btn-primary">1231</button>
+                    <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog container" role="document">
+                            <div class="modal-content row">
+                                <div class="modal-body col-xs-8">
+                                    <img src="assets/img/javi.png">
+                                </div>
+                                <div class="modal-header col-xs-4">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="modal-title" id="myModalLabel">Lorem ipsum dolor sit.</h4>
+                                        </div>
+                                        <div class="row">
+                                            <p><span>$103</span> USD</p>
+                                            <small>Aproximadamente €3000 EUR</small>
+                                            <button class="addToCar">Añadir al carro</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="subtitle">
-                            <button class="btn btn-default">12312</button>
+                    </div>
+                    <div class="panel panel-default panel-product col-xs-12 col-sm-6" data-toggle="modal" data-target="#miModal">
+                        <div class="panel-body">
+                            <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
+                        </div>
+                        <div class="panel-footer">
+                            <div class="title col-xs-12">
+                                <p>Lorem ipsum dolor sit.</p>
+                                <button class="btn btn-primary">1231</button>
+                            </div>
+                            <div class="subtitle">
+                                <button class="btn btn-default">12312</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-default panel-product col-md-12">
-                    <div class="panel-body">
-                        <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                    </div>
-                    <div class="panel-footer">
-                        <div class="title col-md-12">
-                            <p>Lorem ipsum dolor sit.</p>
-                            <button class="btn btn-primary">1231</button>
+                    <div class="panel panel-default panel-product col-xs-12 col-sm-6" data-toggle="modal" data-target="#miModal">
+                        <div class="panel-body">
+                            <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
                         </div>
-                        <div class="subtitle">
-                            <button class="btn btn-default">12312</button>
+                        <div class="panel-footer">
+                            <div class="title col-xs-12">
+                                <p>Lorem ipsum dolor sit.</p>
+                                <button class="btn btn-primary">1231</button>
+                            </div>
+                            <div class="subtitle">
+                                <button class="btn btn-default">12312</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default panel-product col-xs-12" data-toggle="modal" data-target="#miModal">
+                        <div class="panel-body">
+                            <img src="https://dummyimage.com/600x400/8f8f8f/fff.png">
+                        </div>
+                        <div class="panel-footer">
+                            <div class="title col-xs-12">
+                                <p>Lorem ipsum dolor sit.</p>
+                                <button class="btn btn-primary">1231</button>
+                            </div>
+                            <div class="subtitle">
+                                <button class="btn btn-default">12312</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default panel-right">
+                <div class="panel panel-default panel-right hidden-sm hidden-xs">
                     <div>
                         <div class="title col-md-12">
                             <h4>Following</h4>
@@ -151,16 +182,16 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default panel-right">
+                <div class="panel panel-default panel-right hidden-sm hidden-xs">
                     <div>
                         <div class="title col-md-12">
                             <h4>Popular</h4>
                         </div>
                         <div class="subtitle container-fluid">
-                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png">
-                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png">
+                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png" data-toggle="modal" data-target="#miModal">
+                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png" data-toggle="modal" data-target="#miModal">
+                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png" data-toggle="modal" data-target="#miModal">
+                            <img class="col-md-6" src="https://dummyimage.com/600x400/8f8f8f/fff.png" data-toggle="modal" data-target="#miModal">
                             <div class="panel-footer col-md-12">
                                 <a href="">See more</a>
                             </div>

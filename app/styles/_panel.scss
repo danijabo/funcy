@@ -58,14 +58,14 @@
                     border: 1px solid #2b4170;
                     text-shadow: 0 -1px -1px #1f2f52;
                 }
-                &.btn-fb:hover {
-                    color: white;
-                    background-color: #3b5998;
-                    /* fallback color */
-                    background: -moz-linear-gradient(top, #2b4170, #3b5998);
-                    background: -ms-linear-gradient(top, #2b4170, #3b5998);
-                    background: -webkit-linear-gradient(top, #2b4170, #3b5998);
-                }
+                // &.btn-fb:hover {
+                //     color: white;
+                //     background-color: #3b5998;
+                //     /* fallback color */
+                //     background: -moz-linear-gradient(top, #2b4170, #3b5998);
+                //     background: -ms-linear-gradient(top, #2b4170, #3b5998);
+                //     background: -webkit-linear-gradient(top, #2b4170, #3b5998);
+                // }
                 &.btn-tw {
                     color: white;
                     background-color: #0081ce;
@@ -76,14 +76,14 @@
                     border: 1px solid #0081ce;
                     text-shadow: 0 -1px -1px #005ea3;
                 }
-                &.btn-tw:hover {
-                    color: white;
-                    background-color: #00aced;
-                    /* fallback color */
-                    background: -moz-linear-gradient(top, #0081ce, #00aced);
-                    background: -ms-linear-gradient(top, #0081ce, #00aced);
-                    background: -webkit-linear-gradient(top, #0081ce, #00aced);
-                }
+                // &.btn-tw:hover {
+                //     color: white;
+                //     background-color: #00aced;
+                //     /* fallback color */
+                //     background: -moz-linear-gradient(top, #0081ce, #00aced);
+                //     background: -ms-linear-gradient(top, #0081ce, #00aced);
+                //     background: -webkit-linear-gradient(top, #0081ce, #00aced);
+                // }
             }
             img {
                 padding: 5px;
